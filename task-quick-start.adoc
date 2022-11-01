@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-quick-start.html 
+keywords: set up azure netapp files, quick start 
+summary: 'Pour commencer rapidement, suivez ces étapes ou faites défiler jusqu"aux sections restantes pour obtenir plus de détails.' 
+---
+= Démarrage rapide de Azure NetApp Files
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Pour commencer rapidement, suivez ces étapes ou suivez les liens ci-dessous pour obtenir plus d'informations.
+
+[role="quick-margin-para"]
+À partir d'Azure, accordez des autorisations à une application Azure AD, puis copiez l'ID d'application (client), l'ID de répertoire (locataire) et la valeur d'un secret client.
+
+[role="quick-margin-para"]
+link:task-set-up-azure-ad.html["Découvrez comment configurer une application Azure AD"].
+
+[role="quick-margin-para"]
+Dans BlueXP, cliquez sur *Ajouter un environnement de travail* > *Microsoft Azure* > *Azure NetApp Files*, puis fournissez des détails sur l'application AD.
+
+[role="quick-margin-para"]
+link:task-create-working-env.html["Découvrez comment créer un environnement de travail"].

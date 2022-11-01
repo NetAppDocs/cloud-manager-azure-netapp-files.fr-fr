@@ -1,0 +1,69 @@
+---
+settings:
+  name: Azure NetApp Files
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: fr-fr,us-en,ja-jp,zh-cn,zh-tw,ko-kr,de-de
+sidebar:
+  entries:
+  - title: Documentation Azure NetApp Files
+    url: "/index.html"
+  - title: Notes de mise à jour
+    url: "/whats-new.html"
+  - title: Commencez
+    entries:
+    - title: Découvrez Azure NetApp Files
+      url: "/concept-azure-netapp-files.html"
+    - title: Démarrage rapide
+      url: "/task-quick-start.html"
+    - title: Configurez une application Azure AD
+      url: "/task-set-up-azure-ad.html"
+    - title: Créer un environnement de travail
+      url: "/task-create-working-env.html"
+  - title: Utiliser Azure NetApp Files
+    entries:
+    - title: Création et montage de volumes
+      url: "/task-create-volumes.html"
+    - title: Gérer les volumes existants
+      url: "/task-manage-volumes.html"
+    - title: Déposer Azure NetApp Files
+      url: "/task-remove-working-env.html"
+  - title: Connaissances et support
+    entries:
+    - title: S'inscrire pour obtenir de l'aide
+      url: "/task-support-registration.html"
+    - title: Obtenez de l'aide
+      url: "/task-get-help.html"
+  - title: Mentions légales
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Commencez
+    links:
+    - title: Découvrez Azure NetApp Files
+      url: concept-azure-netapp-files.html
+    - title: Démarrage rapide
+      url: task-quick-start.html
+  - title: Utiliser Azure NetApp Files
+    links:
+    - title: Créer des volumes
+      url: task-create-volumes.html
+    - title: Gérer les volumes
+      url: task-manage-volumes.html
+  - title: Communauté sur les blogs
+    links:
+    - title: Communauté NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog BlueXP
+      url: https://cloud.netapp.com/blog
+    - title: Webinaires sur le cloud
+      url: https://cloud.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Toute la documentation BlueXP
