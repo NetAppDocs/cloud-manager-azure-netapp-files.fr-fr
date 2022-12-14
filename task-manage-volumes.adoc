@@ -18,7 +18,7 @@ Vous pouvez gérer les volumes existants à mesure que vos besoins de stockage c
 
 
 
-== Modifiez la taille et les balises d'un volume
+== Modifier la taille et les balises d'un volume
 
 Après avoir créé un volume, vous pouvez modifier sa taille et ses balises à tout moment.
 
@@ -42,6 +42,7 @@ Après avoir créé un volume, vous pouvez modifier le niveau de service à tout
 . Cliquez sur *Modifier*.
 
 
+.Résultat
 Le volume est déplacé vers l'autre pool de capacité sans aucun impact sur le volume.
 
 

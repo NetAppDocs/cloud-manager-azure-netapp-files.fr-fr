@@ -22,7 +22,7 @@ Une fois l'environnement de travail configuré, vous pouvez créer des comptes A
 
 Vous pouvez créer des volumes NFS ou SMB dans un compte Azure NetApp Files existant ou nouveau.
 
-La fonction BlueXP appelée « modèles » vous permet de créer des volumes optimisés pour les besoins de charge de travail de certaines applications, comme les bases de données ou les services de diffusion en continu. Si votre organisation a créé des modèles de volume que vous devez utiliser, suivez la procédure ci-dessous  volumes from templates,procédure à suivre.
+La fonction BlueXP appelée « modèles » vous permet de créer des volumes optimisés pour les besoins de charge de travail de certaines applications, comme les bases de données ou les services de diffusion en continu. Si votre organisation a créé des modèles de volume que vous devez utiliser, suivez la procédure ci-dessous <<Créer des volumes à partir de modèles,procédure à suivre>>.
 
 .Avant de commencer
 * Si vous souhaitez utiliser SMB, vous devez avoir configuré DNS et Active Directory.
@@ -65,9 +65,10 @@ image:screenshot_anf_smb.gif["Copie d'écran des champs requis pour configurer u
 . Cliquez sur *Ajouter un volume*.
 
 
+.Résultat
 Le nouveau volume est ajouté à l'environnement de travail.
 
-Passez à  volumes,montage du volume cloud.
+Passez à <<Montez les volumes,montage du volume cloud>>.
 
 
 
@@ -96,10 +97,11 @@ image:screenshot_define_anf_vol_from_template.png["Capture d'écran montrant un 
 +
 *Remarque :* vous pouvez cliquer sur la case *Afficher les paramètres en lecture seule* pour afficher tous les champs qui ont été verrouillés par le modèle si vous voulez voir les valeurs de ces paramètres. Par défaut, ces champs prédéfinis sont masqués et seuls les champs à compléter sont affichés.
 
-. Ajoutez des valeurs pour tous les paramètres qui ne sont pas codés en dur à partir du modèle. Voir  volumes,création de volumes Pour obtenir des informations détaillées sur les paramètres requis pour déployer un volume Azure NetApp Files,
+. Ajoutez des valeurs pour tous les paramètres qui ne sont pas codés en dur à partir du modèle. Voir <<Creating volumes,création de volumes>> Pour obtenir des informations détaillées sur les paramètres requis pour déployer un volume Azure NetApp Files,
 . Cliquez sur *Exécuter le modèle* après avoir défini tous les paramètres requis pour ce volume.
 
 
+.Résultat
 BlueXP provisionne le volume et affiche une page pour vous permettre de voir la progression.
 
 image:screenshot_template_creating_resource_anf.png["Capture d'écran indiquant la progression de la création de votre nouveau volume à partir du modèle."]

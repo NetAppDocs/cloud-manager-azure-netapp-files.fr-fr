@@ -26,8 +26,10 @@ image:screenshot_anf_details.gif["Capture d'écran des champs requis pour créer
 . Cliquez sur *Ajouter*.
 
 
+.Résultat
 Vous devriez maintenant avoir un environnement de travail Azure NetApp Files.
 
 image:screenshot_anf_we.gif["Copie d'écran d'un environnement de travail Azure NetApp Files."]
 
+.Et la suite ?
 link:task-create-volumes.html["Démarrage de la création et de la gestion des volumes"].
